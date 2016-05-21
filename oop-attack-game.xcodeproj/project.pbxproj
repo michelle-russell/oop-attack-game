@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD3BD3F71CF1255600F13CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD3F61CF1255600F13CCE /* AppDelegate.swift */; };
+		AD3BD3F91CF1255600F13CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD3F81CF1255600F13CCE /* ViewController.swift */; };
+		AD3BD3FC1CF1255700F13CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3BD3FA1CF1255700F13CCE /* Main.storyboard */; };
+		AD3BD3FE1CF1255700F13CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3BD3FD1CF1255700F13CCE /* Assets.xcassets */; };
+		AD3BD4011CF1255700F13CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3BD3FF1CF1255700F13CCE /* LaunchScreen.storyboard */; };
+		AD3BD40C1CF1255700F13CCE /* oop_attack_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD40B1CF1255700F13CCE /* oop_attack_gameTests.swift */; };
+		AD3BD4171CF1255700F13CCE /* oop_attack_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD3BD4081CF1255700F13CCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3BD3EB1CF1255600F13CCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3BD3F21CF1255600F13CCE;
+			remoteInfo = "oop-attack-game";
+		};
+		AD3BD4131CF1255700F13CCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3BD3EB1CF1255600F13CCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3BD3F21CF1255600F13CCE;
+			remoteInfo = "oop-attack-game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD3BD3F31CF1255600F13CCE /* oop-attack-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oop-attack-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3BD3F61CF1255600F13CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD3BD3F81CF1255600F13CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD3BD3FB1CF1255700F13CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD3BD3FD1CF1255700F13CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3BD4001CF1255700F13CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3BD4021CF1255700F13CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3BD4071CF1255700F13CCE /* oop-attack-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oop-attack-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3BD40B1CF1255700F13CCE /* oop_attack_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_attack_gameTests.swift; sourceTree = "<group>"; };
+		AD3BD40D1CF1255700F13CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3BD4121CF1255700F13CCE /* oop-attack-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oop-attack-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_attack_gameUITests.swift; sourceTree = "<group>"; };
+		AD3BD4181CF1255700F13CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3BD3F01CF1255600F13CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3BD4041CF1255700F13CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3BD40F1CF1255700F13CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3BD3EA1CF1255600F13CCE = {
+			isa = PBXGroup;
+			children = (
+				AD3BD3F51CF1255600F13CCE /* oop-attack-game */,
+				AD3BD40A1CF1255700F13CCE /* oop-attack-gameTests */,
+				AD3BD4151CF1255700F13CCE /* oop-attack-gameUITests */,
+				AD3BD3F41CF1255600F13CCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3BD3F41CF1255600F13CCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BD3F31CF1255600F13CCE /* oop-attack-game.app */,
+				AD3BD4071CF1255700F13CCE /* oop-attack-gameTests.xctest */,
+				AD3BD4121CF1255700F13CCE /* oop-attack-gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3BD3F51CF1255600F13CCE /* oop-attack-game */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BD3F61CF1255600F13CCE /* AppDelegate.swift */,
+				AD3BD3F81CF1255600F13CCE /* ViewController.swift */,
+				AD3BD3FA1CF1255700F13CCE /* Main.storyboard */,
+				AD3BD3FD1CF1255700F13CCE /* Assets.xcassets */,
+				AD3BD3FF1CF1255700F13CCE /* LaunchScreen.storyboard */,
+				AD3BD4021CF1255700F13CCE /* Info.plist */,
+			);
+			path = "oop-attack-game";
+			sourceTree = "<group>";
+		};
+		AD3BD40A1CF1255700F13CCE /* oop-attack-gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BD40B1CF1255700F13CCE /* oop_attack_gameTests.swift */,
+				AD3BD40D1CF1255700F13CCE /* Info.plist */,
+			);
+			path = "oop-attack-gameTests";
+			sourceTree = "<group>";
+		};
+		AD3BD4151CF1255700F13CCE /* oop-attack-gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */,
+				AD3BD4181CF1255700F13CCE /* Info.plist */,
+			);
+			path = "oop-attack-gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3BD3F21CF1255600F13CCE /* oop-attack-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3BD41B1CF1255700F13CCE /* Build configuration list for PBXNativeTarget "oop-attack-game" */;
+			buildPhases = (
+				AD3BD3EF1CF1255600F13CCE /* Sources */,
+				AD3BD3F01CF1255600F13CCE /* Frameworks */,
+				AD3BD3F11CF1255600F13CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oop-attack-game";
+			productName = "oop-attack-game";
+			productReference = AD3BD3F31CF1255600F13CCE /* oop-attack-game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD3BD4061CF1255700F13CCE /* oop-attack-gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3BD41E1CF1255700F13CCE /* Build configuration list for PBXNativeTarget "oop-attack-gameTests" */;
+			buildPhases = (
+				AD3BD4031CF1255700F13CCE /* Sources */,
+				AD3BD4041CF1255700F13CCE /* Frameworks */,
+				AD3BD4051CF1255700F13CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3BD4091CF1255700F13CCE /* PBXTargetDependency */,
+			);
+			name = "oop-attack-gameTests";
+			productName = "oop-attack-gameTests";
+			productReference = AD3BD4071CF1255700F13CCE /* oop-attack-gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD3BD4111CF1255700F13CCE /* oop-attack-gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3BD4211CF1255700F13CCE /* Build configuration list for PBXNativeTarget "oop-attack-gameUITests" */;
+			buildPhases = (
+				AD3BD40E1CF1255700F13CCE /* Sources */,
+				AD3BD40F1CF1255700F13CCE /* Frameworks */,
+				AD3BD4101CF1255700F13CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3BD4141CF1255700F13CCE /* PBXTargetDependency */,
+			);
+			name = "oop-attack-gameUITests";
+			productName = "oop-attack-gameUITests";
+			productReference = AD3BD4121CF1255700F13CCE /* oop-attack-gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3BD3EB1CF1255600F13CCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bananapps;
+				TargetAttributes = {
+					AD3BD3F21CF1255600F13CCE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AD3BD4061CF1255700F13CCE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AD3BD3F21CF1255600F13CCE;
+					};
+					AD3BD4111CF1255700F13CCE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AD3BD3F21CF1255600F13CCE;
+					};
+				};
+			};
+			buildConfigurationList = AD3BD3EE1CF1255600F13CCE /* Build configuration list for PBXProject "oop-attack-game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD3BD3EA1CF1255600F13CCE;
+			productRefGroup = AD3BD3F41CF1255600F13CCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3BD3F21CF1255600F13CCE /* oop-attack-game */,
+				AD3BD4061CF1255700F13CCE /* oop-attack-gameTests */,
+				AD3BD4111CF1255700F13CCE /* oop-attack-gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3BD3F11CF1255600F13CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3BD4011CF1255700F13CCE /* LaunchScreen.storyboard in Resources */,
+				AD3BD3FE1CF1255700F13CCE /* Assets.xcassets in Resources */,
+				AD3BD3FC1CF1255700F13CCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3BD4051CF1255700F13CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3BD4101CF1255700F13CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3BD3EF1CF1255600F13CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3BD3F91CF1255600F13CCE /* ViewController.swift in Sources */,
+				AD3BD3F71CF1255600F13CCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3BD4031CF1255700F13CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3BD40C1CF1255700F13CCE /* oop_attack_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3BD40E1CF1255700F13CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3BD4171CF1255700F13CCE /* oop_attack_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD3BD4091CF1255700F13CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3BD3F21CF1255600F13CCE /* oop-attack-game */;
+			targetProxy = AD3BD4081CF1255700F13CCE /* PBXContainerItemProxy */;
+		};
+		AD3BD4141CF1255700F13CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3BD3F21CF1255600F13CCE /* oop-attack-game */;
+			targetProxy = AD3BD4131CF1255700F13CCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD3BD3FA1CF1255700F13CCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3BD3FB1CF1255700F13CCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD3BD3FF1CF1255700F13CCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3BD4001CF1255700F13CCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD3BD4191CF1255700F13CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD3BD41A1CF1255700F13CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3BD41C1CF1255700F13CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "oop-attack-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD3BD41D1CF1255700F13CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "oop-attack-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD3BD41F1CF1255700F13CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "oop-attack-gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oop-attack-game.app/oop-attack-game";
+			};
+			name = Debug;
+		};
+		AD3BD4201CF1255700F13CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "oop-attack-gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oop-attack-game.app/oop-attack-game";
+			};
+			name = Release;
+		};
+		AD3BD4221CF1255700F13CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "oop-attack-gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "oop-attack-game";
+			};
+			name = Debug;
+		};
+		AD3BD4231CF1255700F13CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "oop-attack-gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "oop-attack-game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3BD3EE1CF1255600F13CCE /* Build configuration list for PBXProject "oop-attack-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3BD4191CF1255700F13CCE /* Debug */,
+				AD3BD41A1CF1255700F13CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3BD41B1CF1255700F13CCE /* Build configuration list for PBXNativeTarget "oop-attack-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3BD41C1CF1255700F13CCE /* Debug */,
+				AD3BD41D1CF1255700F13CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD3BD41E1CF1255700F13CCE /* Build configuration list for PBXNativeTarget "oop-attack-gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3BD41F1CF1255700F13CCE /* Debug */,
+				AD3BD4201CF1255700F13CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD3BD4211CF1255700F13CCE /* Build configuration list for PBXNativeTarget "oop-attack-gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3BD4221CF1255700F13CCE /* Debug */,
+				AD3BD4231CF1255700F13CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD3BD3EB1CF1255600F13CCE /* Project object */;
+}
