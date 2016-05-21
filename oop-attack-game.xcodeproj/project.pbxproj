@@ -14,6 +14,7 @@
 		AD3BD4011CF1255700F13CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3BD3FF1CF1255700F13CCE /* LaunchScreen.storyboard */; };
 		AD3BD40C1CF1255700F13CCE /* oop_attack_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD40B1CF1255700F13CCE /* oop_attack_gameTests.swift */; };
 		AD3BD4171CF1255700F13CCE /* oop_attack_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */; };
+		AD3BD4251CF1284D00F13CCE /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD3BD4241CF1284D00F13CCE /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AD3BD4121CF1255700F13CCE /* oop-attack-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oop-attack-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_attack_gameUITests.swift; sourceTree = "<group>"; };
 		AD3BD4181CF1255700F13CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3BD4241CF1284D00F13CCE /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AD3BD3F51CF1255600F13CCE /* oop-attack-game */ = {
 			isa = PBXGroup;
 			children = (
+				AD3BD4241CF1284D00F13CCE /* Minecraft.ttf */,
 				AD3BD3F61CF1255600F13CCE /* AppDelegate.swift */,
 				AD3BD3F81CF1255600F13CCE /* ViewController.swift */,
 				AD3BD3FA1CF1255700F13CCE /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				AD3BD4011CF1255700F13CCE /* LaunchScreen.storyboard in Resources */,
 				AD3BD3FE1CF1255700F13CCE /* Assets.xcassets in Resources */,
+				AD3BD4251CF1284D00F13CCE /* Minecraft.ttf in Resources */,
 				AD3BD3FC1CF1255700F13CCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bananapps.oop-attack-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
