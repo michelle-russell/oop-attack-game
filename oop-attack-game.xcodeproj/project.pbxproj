@@ -15,6 +15,9 @@
 		AD3BD40C1CF1255700F13CCE /* oop_attack_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD40B1CF1255700F13CCE /* oop_attack_gameTests.swift */; };
 		AD3BD4171CF1255700F13CCE /* oop_attack_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */; };
 		AD3BD4251CF1284D00F13CCE /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD3BD4241CF1284D00F13CCE /* Minecraft.ttf */; };
+		AD3BD4271CF12C8900F13CCE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD4261CF12C8900F13CCE /* Character.swift */; };
+		AD3BD42B1CF1301800F13CCE /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD42A1CF1301800F13CCE /* Knight.swift */; };
+		AD3BD42D1CF13B3000F13CCE /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BD42C1CF13B3000F13CCE /* Orc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		AD3BD4161CF1255700F13CCE /* oop_attack_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_attack_gameUITests.swift; sourceTree = "<group>"; };
 		AD3BD4181CF1255700F13CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3BD4241CF1284D00F13CCE /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		AD3BD4261CF12C8900F13CCE /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		AD3BD42A1CF1301800F13CCE /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Knight.swift; path = ../Knight.swift; sourceTree = "<group>"; };
+		AD3BD42C1CF13B3000F13CCE /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				AD3BD3FD1CF1255700F13CCE /* Assets.xcassets */,
 				AD3BD3FF1CF1255700F13CCE /* LaunchScreen.storyboard */,
 				AD3BD4021CF1255700F13CCE /* Info.plist */,
+				AD3BD4261CF12C8900F13CCE /* Character.swift */,
+				AD3BD42A1CF1301800F13CCE /* Knight.swift */,
+				AD3BD42C1CF13B3000F13CCE /* Orc.swift */,
 			);
 			path = "oop-attack-game";
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD3BD42B1CF1301800F13CCE /* Knight.swift in Sources */,
+				AD3BD4271CF12C8900F13CCE /* Character.swift in Sources */,
 				AD3BD3F91CF1255600F13CCE /* ViewController.swift in Sources */,
+				AD3BD42D1CF13B3000F13CCE /* Orc.swift in Sources */,
 				AD3BD3F71CF1255600F13CCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -74,6 +74,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="18"/>
                                 <state key="normal" title="ATTACK!" backgroundImage="player2attackbtn"/>
+                                <connections>
+                                    <action selector="btnAttackPlr2OnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="th6-d7-9cK"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="text-holder" translatesAutoresizingMaskIntoConstraints="NO" id="q7w-4L-xpW">
                                 <rect key="frame" x="76" y="543" width="448" height="50"/>
@@ -122,6 +125,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="lblStatus" destination="urd-fO-Hn1" id="c3N-W8-EuA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
